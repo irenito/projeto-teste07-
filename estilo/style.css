@@ -16,11 +16,26 @@ header h1 {
     text-align: center;
     padding: 10px;
 }
+span#burguer {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+span#burguer:hover {
+    background-color: white;
+    color: black;
+
+}
 header menu {
     color: white;
     font-size: 1.2em;
     padding: 5px;
     
+}
+menu {
+    display: none;
 }
 menu ul {
     list-style-type: none;
@@ -34,7 +49,8 @@ menu > ul > li > a {
     text-align: center;
     background-color:rgb(155, 155, 230);
     color: white;
-    border-top: 2px solid rgb(98, 98, 237);
+    border: 2px solid rgb(141, 141, 236);
+    
 }
 menu a:hover {
     background-color: rgb(98, 98, 237);
